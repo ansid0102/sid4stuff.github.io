@@ -27,13 +27,12 @@ header{
 }
 #header-container li a{
     transition: all 0.3s ease 0s;
-    color: #000;
-    text-decoration:blink;
-    text-decoration-color:#ffffff;   
+    color: #800080;
+    
 }
     #header-container li a:hover{
         transition: all 0.0.3s ease 0.1s;
-        color: #800080;
+        color: #ffffff;
     }
     
 #header-logo{
