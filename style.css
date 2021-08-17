@@ -29,10 +29,7 @@ header{
     transition: all 0.3s ease 0s;
     color: #800080;
     }
-    #header-container li a:hover{
-        transition: all 0.0.3s ease 0.1s;
-        color: #ffffff;
-    }
+   
     
 #header-logo{
     display: flex;
