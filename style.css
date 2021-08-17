@@ -27,7 +27,7 @@ header{
 }
 #header-container li a{
     transition: all 0.3s ease 0s;
-    color: #800080;
+    color: rgb(255,255,255);
     }
    
     
@@ -36,25 +36,7 @@ header{
     margin-left: 10px;
     
 }
-button{
-    font-size: large;
-    margin-top: 0;
-    padding: 10px 20px;
-    background-color: #000;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-button:hover{
-    margin-top: 0;
-    padding: 10px 20px;
-    color:white;
-    background-color:rgb(199, 37, 37);
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s;
-}
+
 #post{
     margin:50px;
     padding:20px;
