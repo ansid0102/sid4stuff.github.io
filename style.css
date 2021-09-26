@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+nav li{
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Courier New';
+     /* Courier, monospace; */
+    margin-top: 30px;
+    padding: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+#top{
+    height: 100%;
+   display: flex;
+}
+.column{
+    flex: 50%;
+}
+
+
+#right img{
+    object-fit: cover;
+    border-radius: 80%;
+    height: 400px;
+    margin-top: 7rem;
+}
+
+#left{
+    font-size: large;
+    font-family: 'IBM Plex Sans',sans-serif;
+    padding: 14rem;
+}
+
+#left h2{
+    color: blue;
+}
+#bottom{
+    color: white;
+    background-color: black;
+}
+#link{
+    margin-left: 15px;
+}
+#git{
+    padding: 10px;
+}
+#bottom a{
+    text-decoration: none;
+    color: white;
+}
+#bottom a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+#bottom h1{
+    padding: 30px;
+    font-family: 'Courier New';
+}
+
+#bottom h2{
+    padding: 30px;
+    font-family: 'IBM Plex Sans',sans-serif;
+}
