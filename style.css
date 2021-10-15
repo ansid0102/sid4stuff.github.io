@@ -1,76 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
-nav li{
-    list-style-type: none;
-    font-size: larger;
-    font-weight: bold;
-    font-family:'Courier New';
-     /* Courier, monospace; */
-    margin-top: 30px;
-    padding: 30px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
+    font-family: "Poppins";
     margin: 0;
     padding: 0;
 }
-nav a{
-    text-decoration: none;
-    color: black;
+#title{
+    color: white;
+    margin-left: 17px;
+    margin-top: 28px;
+}
+nav{
+    background-color:#18354c;
+    display: flex;
+    justify-content: space-between;
 }
 
-nav a:hover{
-    color: blue;
-}
-
-#top{
-    height: 100%;
-   display: flex;
-}
-.column{
-    flex: 50%;
-}
-
-
-#right img{
-    object-fit: cover;
-    border-radius: 80%;
-    height: 400px;
-    margin-top: 7rem;
-}
-
-#left{
+nav li{
     font-size: large;
-    font-family: 'IBM Plex Sans',sans-serif;
-    padding: 14rem;
+    display: inline-block;
+    padding: 2rem;
+}
+nav a{
+    color:white;
 }
 
-#left h2{
-    color: blue;
+#blog{
+    height:100%;
+    width: 100%;
+    margin: 1rem;
 }
-#bottom{
+#projects{
+    margin: 1rem;
+}
+
+#projects li{
+    display: block;
+    font-size:1.5rem;
+}
+#About{
+    display:block;
+    text-align: center;
+    margin: 1rem;
+}
+#yt{
+    text-align: center;
+    margin: 10 auto;
+    align-content: center;
+}
+
+footer{
+    text-align: center;
+    background-color: hsl(207, 52%, 20%);
     color: white;
-    background-color: black;
-}
-#link{
-    margin-left: 15px;
-}
-#git{
-    padding: 10px;
-}
-#bottom a{
-    text-decoration: none;
-    color: white;
-}
-#bottom a:hover{
-    text-decoration: none;
-    color: blue;
 }
 
-#bottom h1{
-    padding: 30px;
-    font-family: 'Courier New';
+footer h2{
+    font-weight: 100;
 }
 
-#bottom h2{
-    padding: 30px;
-    font-family: 'IBM Plex Sans',sans-serif;
+#yt a{
+    color: red;
+    text-decoration: none;
 }
