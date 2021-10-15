@@ -22,9 +22,13 @@ nav li{
     padding: 2rem;
 }
 nav a{
+    text-decoration: none;
     color:white;
 }
-
+nav a:hover{
+    width: fit-content;
+    border-bottom: 1px solid yellow;
+}
 #blog{
     height:100%;
     width: 100%;
@@ -50,6 +54,7 @@ nav a{
 }
 
 footer{
+    font-size: x-small;
     text-align: center;
     background-color: hsl(207, 52%, 20%);
     color: white;
@@ -60,6 +65,7 @@ footer h2{
 }
 
 #yt a{
-    color: red;
+    margin-top: 1rem;
+    color:blue;
     text-decoration: none;
 }
